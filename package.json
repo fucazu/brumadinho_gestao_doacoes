@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node-env-run index.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "express": "^4.16.4",
     "knex": "^0.16.3",
     "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2"
   }
 }
