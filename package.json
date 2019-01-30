@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node-env-run index.js",
+    "dev": "nodemon --exec npm start",
     "migration": "knex migrate:make --knexfile=./api/database/index.js"
   },
   "repository": {
@@ -23,8 +24,10 @@
   },
   "homepage": "https://github.com/fucazu/brumadinho_gestao_doacoes#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "knex": "^0.16.3",
+    "morgan": "^1.9.1",
     "pg": "^7.8.0"
   },
   "devDependencies": {
