@@ -4,7 +4,7 @@ exports.up = function(knex) {
     if (!exists) {
       return knex.schema.createTable('item_description', table => {
         table.increments('id').primary()
-        table.integer('description')
+        table.string('description')
         table.boolean('active').defaultTo(true)
         table.timestamps(true, true)
       })
