@@ -1,0 +1,29 @@
+{
+  "name": "brumadinho_gestao_doacoes",
+  "version": "0.0.1",
+  "description": "Sistema para gestão das doações",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fucazu/brumadinho_gestao_doacoes.git"
+  },
+  "keywords": [
+    "brumadinho",
+    "doacoes"
+  ],
+  "author": "Comunidade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fucazu/brumadinho_gestao_doacoes/issues"
+  },
+  "homepage": "https://github.com/fucazu/brumadinho_gestao_doacoes#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "pg": "^7.8.0"
+  }
+}
