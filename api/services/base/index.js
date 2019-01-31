@@ -1,4 +1,4 @@
-const { knex } = require('../database')
+const { knex } = require('../../config/knexfile.config')
 
 class Base {
   constructor (table) {
