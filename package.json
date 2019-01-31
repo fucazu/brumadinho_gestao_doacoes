@@ -25,8 +25,11 @@
   "homepage": "https://github.com/fucazu/brumadinho_gestao_doacoes#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
     "express": "^4.16.4",
+    "helmet": "^3.15.0",
     "knex": "^0.16.3",
+    "method-override": "^3.0.0",
     "morgan": "^1.9.1",
     "pg": "^7.8.0"
   },

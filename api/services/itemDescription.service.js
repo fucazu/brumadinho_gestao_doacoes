@@ -1,6 +1,6 @@
 const TABLE = 'item_description'
 
-const Base = new (require('../base'))(TABLE)
+const Base = new (require('./base'))(TABLE)
 
 const addNew = function (obj) {
   return Base.insert(obj, 'id')
